@@ -145,14 +145,14 @@ function MyApp({ Component, pageProps }: AppProps) {
               </List>
             </Collapse>
 
-            <ListItemButton>
+            <ListItemButton component="a" href="WELCOME">
               <ListItemIcon sx={{ ml: 1 }}>
                 <DvrIcon sx={{ fontSize: "medium" }} />
               </ListItemIcon>
               <ListItemText primary="WELCOME" sx={{ ml: -3 }} />
             </ListItemButton>
 
-            <ListItemButton>
+            <ListItemButton component="a" href="Student_Profile">
               <ListItemIcon sx={{ ml: 1 }}>
                 <DvrIcon sx={{ fontSize: "medium" }} />
               </ListItemIcon>
@@ -168,7 +168,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             </ListItemButton>
             <Collapse in={open2} timeout="auto" unmountOnExit>
               <List component="div" disablePadding>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Academic_Planner_2021_22_ODD"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -177,7 +181,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Academic_Planner_2021_22_EVEN"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <MilitaryTechIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -198,7 +206,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             </ListItemButton>
             <Collapse in={open3} timeout="auto" unmountOnExit>
               <List component="div" disablePadding>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Student_Contact_Update_2016_17"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <LocalHospitalIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -207,7 +219,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Student_Master_Contact_Update"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <ListIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -228,13 +244,21 @@ function MyApp({ Component, pageProps }: AppProps) {
             </ListItemButton>
             <Collapse in={open4} timeout="auto" unmountOnExit>
               <List component="div" disablePadding>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Minor_Time_Table"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
                   <ListItemText primary="Minor Time Table" sx={{ ml: -3 }} />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Special_Time_Table_1"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -243,7 +267,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Special_Time_Table_2"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -252,7 +280,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Unified_Time_Table_Jan_22_Batch_1"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -261,7 +293,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Unified_Time_Table_Jan_22_Batch_2"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -273,7 +309,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               </List>
             </Collapse>
 
-            <ListItemButton>
+            <ListItemButton component="a" href="Course_Feedback">
               <ListItemIcon sx={{ ml: 1 }}>
                 <DvrIcon sx={{ fontSize: "medium" }} />
               </ListItemIcon>
@@ -289,7 +325,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             </ListItemButton>
             <Collapse in={open5} timeout="auto" unmountOnExit>
               <List component="div" disablePadding>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Course_Registration_Page_New_Regulation"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -298,7 +338,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Course_Registration_Page_18_Regulation"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -307,7 +351,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="My_Electives_18_Regulation"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -316,7 +364,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Course_Confirmation_Elective_Polling"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -337,7 +389,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             </ListItemButton>
             <Collapse in={open6} timeout="auto" unmountOnExit>
               <List component="div" disablePadding>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="My_Time_Table_2020_21_22"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -346,7 +402,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="My_Attendance"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -367,7 +427,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             </ListItemButton>
             <Collapse in={open7} timeout="auto" unmountOnExit>
               <List component="div" disablePadding>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="Student_Service_Requests_SSR"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <LocalHospitalIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
@@ -376,7 +440,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     sx={{ ml: -3 }}
                   />
                 </ListItemButton>
-                <ListItemButton sx={{ pl: 4 }}>
+                <ListItemButton
+                  sx={{ pl: 4 }}
+                  component="a"
+                  href="My_Service_Requests"
+                >
                   <ListItemIcon sx={{ ml: 1 }}>
                     <WysiwygIcon sx={{ fontSize: "medium" }} />
                   </ListItemIcon>
